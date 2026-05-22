@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(pnpm install *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(pnpm add *)",
+      "PowerShell(New-Item *)",
+      "WebSearch",
+      "PowerShell(pnpm lint *)",
+      "PowerShell(pnpm build *)"
+    ]
+  }
+}
