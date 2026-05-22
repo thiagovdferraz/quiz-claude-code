@@ -20,7 +20,6 @@ export async function GET() {
     .limit(50);
 
   if (error) {
-    console.error("[ranking GET] supabase error:", error.message, error.code, error.details);
     return NextResponse.json({ error: "Failed to fetch ranking" }, { status: 500 });
   }
 
